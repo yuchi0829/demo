@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>熱門排行</title>
+	<link rel="stylesheet" type="text/css" href="css/navandfooter.css">
+	<link rel="stylesheet" type="text/css" href="css/hot.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body id="gotop">
+	<!--nav start-->
+	<script src="js/nav.js"></script>
+	<div id="id01" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	      		<label><b>帳號</b></label>
+	      		<input type="text" placeholder="Enter Username" name="name" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="password" placeholder="Enter Password" name="psw" required>
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">登入</button>
+	      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<div id="id02" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	    		<label><b>姓名</b></label>
+	      		<input type="text" name="name1" required>
+
+				<br>
+	      		<label><b>帳號</b></label>
+	      		<input type="text" name="account" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="text" name="psw1" required>
+
+	      		<label><b>電話</b></label>
+	      		<input type="tel" name="phone" required>
+
+	      		<label><b>email</b></label>
+	      		<input type="email" name="email" required>
+				
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">送出</button>
+	      		<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<!--nav over-->
+	<center>
+	<h1 class="hotword">熱門排行</h1>	
+	<div class="hot">
+		<div class="hot-1">
+			<img src="img/no1.png" class="no1">
+			<div class="card" style="width: 18rem; margin-top: 5%;" >
+			  	<img src="img/nike-basket4.png" class="card-img-top" alt="...">
+			  	<div class="card-body">
+			    	<h5 class="card-title">Nike<br>Kobe 11</h5>
+			    	<p class="card-text">$5,500</p>
+			    	<a href="product-nike.html" class="btn lookmore">看更多</a>
+			  	</div>
+			</div>
+		</div>
+		<div class="hot-2">
+			<img src="img/no2.png" class="no1">
+			<div class="card" style="width: 18rem; margin-top: 5%;">
+			  	<img src="img/adidas-flat4.png" class="card-img-top" alt="...">
+			  	<div class="card-body">
+			    	<h5 class="card-title">Adidas<br>CF Advantage</h5>
+			    	<p class="card-text">$2,550</p>
+			    	<a href="product-adidas.html" class="btn lookmore">看更多</a>
+			  	</div>
+			</div>
+		</div>
+		<div class="hot-3">
+			<img src="img/no3.png" class="no1">
+			<div class="card" style="width: 18rem; margin-top: 5%;">
+			  	<img src="img/nike-run5.png" class="card-img-top" alt="...">
+			  	<div class="card-body">
+			    	<h5 class="card-title">Nike<br>Cortez</h5>
+			    	<p class="card-text">$3,600</p>
+			    	<a href="product-nike.html" class="btn lookmore">看更多</a>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<center>
+	<!--footer start-->
+	<script src="js/footer.js"></script>
+	<!--footer over-->  
+	<script Language="JavaScript">
+		function login(){
+			document.getElementById('id01').style.display='block';
+		}
+		function register(){
+			document.getElementById('id02').style.display='block';
+		}
+	</script> 
+</body>
+</html>

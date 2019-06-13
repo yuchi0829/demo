@@ -1,0 +1,57 @@
+div.aboutall{
+	width:80%;
+	height: 100%;
+}
+div.aboutcontent{
+	margin-top: 5%;
+	width:80%;
+	height: 100%;
+}
+h1.confirm{
+	text-align: left;
+	border-bottom: 2px solid #D4D2D2;
+}
+div.n4{
+	margin-top: 1%;
+	width: 900px;
+	height:800px;
+}
+div.life {
+	position: relative;
+    width:430px;
+	height:338px;
+	margin-top: 5%;
+}
+img.life2{
+	width:430px;
+	height:338px;
+	border-radius: 50px;
+}
+.comment {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:430px;
+	height:338px;
+	background: rgb(101, 101, 101, 0.6);
+	color: #ffffff;
+	opacity: 0;
+	border-radius: 50px;
+}
+.comment h1{
+	text-align: center;
+	padding-top: 7%;
+	font-size: 40px;
+}
+.comment h3{
+	text-align: center;
+}
+div.life a:hover .comment {
+	opacity: 1;           
+}
+.a{
+	float:left;
+}
+.b{
+	float:right;
+}

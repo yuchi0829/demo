@@ -1,0 +1,55 @@
+body{
+	font-family: "微軟正黑體";
+}
+div.news{
+	display: flex;
+	width:70%;
+	height: 400px;
+	margin-top: 4%;
+}
+div.news-1{
+	flex: 6;
+	border: 1px solid black;
+	margin-right: 3%;
+}
+div.news-2{
+	flex: 6;
+	border: 1px solid black;
+}
+
+h1.special{
+	margin-top: 5%;
+	font-size:30px;
+}
+h1.special-1{
+	margin-top: 3%;
+	font-size:30px;
+}
+div.special{
+	display: flex;
+	width: 70%;
+	height: 400px;
+	margin-top: 3%;
+}
+div.special-1{
+	flex:4;
+	margin-right: 5%;
+}
+div.special-2{
+	flex:4;
+	margin-right: 5%;
+}
+div.special-3{
+	flex:4;
+}
+img.special{
+	height: 260px;
+	width: 400px;
+}
+a.lookmore{
+	border:1px solid #D4D2D2;
+}
+a.lookmore:hover{
+	border:1px solid #D4D2D2;
+	background-color: #D4D2D2;
+}

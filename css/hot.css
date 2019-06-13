@@ -1,0 +1,49 @@
+.hot{
+	display: flex;
+	margin-top: 3%;
+	width: 80%;
+}
+@keyframes ex1 {
+			0% {margin-left: 100%}
+			100% {margin-left: 0%}
+		}
+@keyframes ex2 {
+			0% {margin-left: 80%}
+			100% {margin-left: 0%}
+		}
+@keyframes ex3 {
+			0% {margin-left: 60%}
+			100% {margin-left: 0%}
+		}				
+.hot-1{
+	flex:4;
+	animation-name: ex1;
+	animation-duration: 3s;
+}
+.hot-2{
+	flex:4;
+	animation-name: ex2;
+	animation-duration: 6s;
+}
+.hot-3{
+	flex:4;
+	animation-name: ex3;
+	animation-duration: 9s;
+}
+a.lookmore{
+	border:1px solid #D4D2D2;
+}
+a.lookmore:hover{
+	border:1px solid #D4D2D2;
+	background-color: #D4D2D2;
+}
+img.no1{
+	width: 150px;
+	height: 150px;
+}
+h1.hotword{
+	margin-top: 4%;
+	width:64%;
+	text-align: left;
+	border-bottom: 2px solid #D4D2D2;
+}

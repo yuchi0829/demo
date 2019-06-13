@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>商品頁</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="css/navandfooter.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body id="gotop">
+	<!--nav start-->
+	<script src="js/nav.js"></script>
+	<div id="id01" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	      		<label><b>帳號</b></label>
+	      		<input type="text" placeholder="Enter Username" name="name" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="password" placeholder="Enter Password" name="psw" required>
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">登入</button>
+	      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<div id="id02" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	    		<label><b>姓名</b></label>
+	      		<input type="text" name="name1" required>
+
+				<br>
+	      		<label><b>帳號</b></label>
+	      		<input type="text" name="account" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="text" name="psw1" required>
+
+	      		<label><b>電話</b></label>
+	      		<input type="tel" name="phone" required>
+
+	      		<label><b>email</b></label>
+	      		<input type="email" name="email" required>
+				
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">送出</button>
+	      		<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<!--nav over-->
+
+	<!--bigbox-->
+	<div class="row"  style="width:100%; height: 100%;">
+	<!-- aside -->
+		<aside class="col-md-2">
+			<div class = "sidebar">
+				<div class="col-md-12"><br></div>
+				<ul>
+					<h2 class="nav-link" style="color: #757575;">Adidas</h2><hr>
+                	<a href="adidas-all.html" class="nav-link" style="color: #757575;"><h3 class="con">全部</h3></a><hr>
+                	<a href="adidas-basket.html" class="nav-link" style="text-decoration: none;color: #757575;"><h3>球鞋</h3></a><hr>
+					<a href="adidas-flat.html" class="nav-link" style="text-decoration: none;color: #757575;"><h3>板鞋</h3></a><hr>
+					<a href="adidas-run.html" class="nav-link" style="text-decoration: none;color: #757575;"><h3>跑鞋</h3></a><hr>
+					<a href="adidas-man.html" class="nav-link" style="text-decoration: none;color: #757575;"><h3>男鞋</h3></a><hr>
+					<a href="adidas-woman.html" class="nav-link" style="text-decoration: none;color: #757575;"><h3>女鞋</h3></a>
+				</ul><hr>
+			</div>
+		</aside>
+	<!-- /aside -->
+
+		<!-- container -->
+		<div class="container m">
+		    <!-- content -->
+		    <form>
+		    	<content class="row" >
+			    	<!-- aside -->
+			    	<aside class="col-">
+			    		<img width=420 height=360 src='img/adidas-run1.png' style="border:1px solid #D9D6D6;"><br><br>
+				    </aside>
+			    	<!-- /aside -->
+
+			    	<!-- main -->
+			    	<main class="col-md-5">
+			    		 <div class="col-md-12"><br></div>
+			    		<div class="col-md-12">
+			    			<h1 class="producttitle">Adidas Ultra Boost 4.0</h1>
+			    			<h4 class="ph">類別：跑鞋 <br>售價：$5,500 <br>庫存：10</h4><br>
+			    		</div>
+				        <div class="col-md-12">
+				        	<h6 class="ph">瀏覽次數：0</h6><br>
+				        	<input type="submit" value="加入購物車" class="send" />
+				        </div>	    	
+			    	</main>
+			    	<!-- /main -->
+		    </form>
+		    <form>
+			    	<!-- meg -->
+			        <div class="meg">
+			        	<hr>
+			    	    <opt><textarea name="note" placeholder="寫些評論" rows="5" cols="60" required></textarea></opt>
+			    	    <div class="row">
+			    	    	<div class="col-md-8">
+			    	    	    <h3>姓名:&nbsp; <opt><input class="name" type="text" name="name" size="10" required></opt></h3>
+			        	        <h3>E-Mail:&nbsp; <opt><input class="email" type="email" name="email" required></opt></h3>
+			        	        <h3 class="wid">打分數:&nbsp; <opt><input type="radio" name="score" required>&nbsp;1顆星
+			        	        				 &nbsp;<input type="radio" name="score">&nbsp;2顆星
+			        	        				 &nbsp;<input type="radio" name="score">&nbsp;3顆星
+			        	        				 &nbsp;<input type="radio" name="score">&nbsp;4顆星
+			        	        				 &nbsp;<input type="radio" name="score">&nbsp;5顆星</opt></h3><br>
+			        	        <input type="submit" value="送出" class="send">  	
+			        	    </div>	  		    
+			    	    </div>
+			    	    <h2 class="comment">評論內容</h2>
+			    	    <!-- 放評論內容 -->
+			    	</div>
+			        <!-- /meg -->
+		    	</content>
+		    </form>
+		    <!-- /content -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!--bigbox-->
+	<!--footer start-->
+	<script src="js/footer.js"></script>
+	<!--footer over-->  
+	<script Language="JavaScript">
+		function login(){
+			document.getElementById('id01').style.display='block';
+		}
+		function register(){
+			document.getElementById('id02').style.display='block';
+		}
+	</script> 
+</body>
+</html>

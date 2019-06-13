@@ -1,0 +1,43 @@
+div.updatecontent{
+	margin-top: 5%;
+	width:80%;
+	height: 100%;
+}
+div.updateall{
+	width:80%;
+	height: 100%;
+}
+h1.confirm{
+	text-align: left;
+	border-bottom: 2px solid #D4D2D2;
+}
+div.updateimformation{
+	margin-top: 2%;
+	text-align: left;
+}
+input.mem
+{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #616060;
+    background-color: rgba(244,244,244,1);
+    font-weight: bold;
+    margin-top: 2%;
+}
+input.mem:hover
+{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: #616060;
+    background-color: #D9D6D6;
+    font-weight: bold;
+    margin-top: 2%;
+}

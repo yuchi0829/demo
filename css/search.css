@@ -1,0 +1,26 @@
+div.searchall{
+	width:80%;
+	height: 100%;
+}
+div.searchcontent{
+	margin-top: 5%;
+	width:80%;
+	height: 100%;
+}
+h1.confirm{
+	text-align: left;
+	border-bottom: 2px solid #D4D2D2;
+}
+div.blank{
+    height:150px;
+}
+a.lookmore{
+    border:1px solid #D4D2D2;
+}
+a.lookmore:hover{
+    border:1px solid #D4D2D2;
+    background-color: #D4D2D2;
+}
+.m{
+	margin-top: 3%;
+}

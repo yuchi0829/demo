@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<link rel="stylesheet" type="text/css" href="css/navandfooter.css">
+	<link rel="stylesheet" type="text/css" href="css/board.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body id="gotop">
+	
+	<!--nav start-->
+	<script src="js/nav.js"></script>
+	<div id="id01" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	      		<label><b>帳號</b></label>
+	      		<input type="text" placeholder="Enter Username" name="name" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="password" placeholder="Enter Password" name="psw" required>
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">登入</button>
+	      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<div id="id02" class="modal1">
+	  	<form class="modal-content1 animate1" action="index.html" method="post">
+	    	<div class="container">
+	    		<label><b>姓名</b></label>
+	      		<input type="text" name="name1" required>
+
+				<br>
+	      		<label><b>帳號</b></label>
+	      		<input type="text" name="account" required>
+
+	      		<label><b>密碼</b></label>
+	      		<input type="text" name="psw1" required>
+
+				<label><b>電話</b></label>
+	      		<input type="tel" name="phone" required>
+
+	      		<label><b>email</b></label>
+	      		<input type="email" name="email" required>
+				
+	    	</div>
+
+	    	<div class="container" style="background-color:#f1f1f1">
+	    	<center>
+	    		<button type="submit" class="login">送出</button>
+	      		<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">取消</button>
+	      	</center>
+	    	</div>
+	  	</form>
+	</div>
+	<!--nav over-->
+
+	<!--content start-->
+	<content>
+		<center>
+		<div class="boardall">
+			<div class="boardcontent">
+				<h1 class="confirm">留言板</h1>
+				<div class="boardimformation">
+					<form action="board.html">
+						姓名:&nbsp;<input type="text" style="width: 412px;" required><br>
+						email:&nbsp;<input type="email" style="width: 400px;" required><br>
+						想說的話:<br><textarea cols="70" rows="4" required></textarea><br>
+						<input type="submit" value="送出" class="mem" />
+					</form>
+				</div>
+				<br>
+				<h1 class="confirm">留言內容</h1>
+				<div class="message">
+					<!--放留言內容-->
+				</div>
+			</div>
+		</div>
+		</center>
+	</content>
+	<!--content over-->
+
+	<!--footer start-->
+	<script src="js/footer.js"></script>
+	<!--footer over-->  
+	<script Language="JavaScript">
+		function login(){
+			document.getElementById('id01').style.display='block';
+		}
+		function register(){
+			document.getElementById('id02').style.display='block';
+		}
+	</script> 
+</body>
+</html>

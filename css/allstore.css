@@ -1,0 +1,14 @@
+a.lookmore{
+    border:1px solid #D4D2D2;
+}
+a.lookmore:hover{
+    border:1px solid #D4D2D2;
+    background-color: #D4D2D2;
+}
+.m{
+	margin-top: 3%;
+}
+h1.sort{
+	margin-top: 2%;
+	border-bottom: 2px solid  #D4D2D2;
+}
